@@ -11,7 +11,9 @@ body {
 }
 
 .app {
-  aspect-ratio: 3/3;
+  /* aspect-ratio: 3/3; */
+  height: 500px;
+  width: 500px;
   background: rgb(203, 218, 123);
   padding: 12px;
   border-radius: 8px;
@@ -19,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .header > h2 {
@@ -31,6 +34,7 @@ body {
   height: 12px;
   margin-left: 30%;
   margin-right: 4px;
+  cursor: pointer;
 }
 
 p {
@@ -41,4 +45,48 @@ p {
 
 .showdate {
   margin-bottom: 30px;
+}
+
+.footer {
+  margin: 16px;
+}
+
+.footer > button {
+  height: 28px;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+  background: black;
+  color: aliceblue;
+  border-radius: 8px;
+  /* font-size: 20px; */
+}
+
+.footer > input {
+  height: 28px;
+  border: none;
+  text-indent: 8px;
+  font-size: 16px;
+}
+
+.reset {
+  margin-top: 10px;
+}
+
+.reset > button {
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: black;
+  color: aliceblue;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(34, 31, 31);
 }
